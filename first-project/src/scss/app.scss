@@ -17,7 +17,14 @@
  color: $background_button;
 }
 .quote {
-    font-size: 30px;
+    color: #58402c;
+    font-size: 20px;
+}
+h3 {
+    color: #58402c;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
 }
 .mission {
     width: 50%;
@@ -41,4 +48,13 @@
 .btn-default {
     color: $background_sfondo;
     background-color: $background_button;
+}
+.rabbit {
+    background-color: #FFE7D2;
+}
+.icon {
+    float: left;
+}
+.icon img {
+    max-width: 100%;
 }

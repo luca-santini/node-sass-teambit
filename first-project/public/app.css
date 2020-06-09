@@ -20,7 +20,15 @@
 }
 
 .quote {
-  font-size: 30px;
+  color: #58402c;
+  font-size: 20px;
+}
+
+h3 {
+  color: #58402c;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .mission {
@@ -50,5 +58,17 @@
 .btn-default {
   color: #FFFFFF;
   background-color: #233569;
+}
+
+.rabbit {
+  background-color: #FFE7D2;
+}
+
+.icon {
+  float: left;
+}
+
+.icon img {
+  max-width: 100%;
 }
 
