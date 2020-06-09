@@ -1,22 +1,23 @@
+@import "partials/variables";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family:'HarmoniaSansProCyr-SemiBd';
 }
-body {
-  background-color: #FFFFFF;
-}
 .navbar-default {
-    background-color: #FFFFFF;
-    border-color: #FFFFFF;
+    background-color: $background_sfondo;
+}
+.jumbotron {
+    background-color: $background_sfondo;
+}
+.navbar-right .btn-default {
+ background-color: $background_sfondo;
+ border-radius: $background_button;
+ color: $background_button;
 }
 .quote {
-    font-size: 20px;
-}
-.jumbotron h1 p {
-    color: #58402c;
-    font-size: 18px;
+    font-size: 30px;
 }
 .mission {
     width: 50%;
@@ -36,4 +37,8 @@ body {
 }
 .small  {
     font-size: 10px;
+}
+.btn-default {
+    color: $background_sfondo;
+    background-color: $background_button;
 }
